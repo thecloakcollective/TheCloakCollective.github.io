@@ -26,34 +26,40 @@
   display: flex;
   align-items: center; 
   justify-content: center;
-  max-height: 780px;
-  max-width: 700px;
+  height: auto;
+  max-width: 900px;
 }
 .bio p{
-    font-size: 23px;
+    font-size: max(1vw, 30px);
     font-weight: 500;
     font-family: sans-serif;
     padding-top:20px;
 }
 .bio img{
-    max-width: 68%;
+    max-width: 78%;
     border-radius: 10%;
     box-shadow:1.4vw 1.4vw #F2A477;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1115px){
   .wrapper-main{
     width: 100%;
     height: fit-content;
     padding-top: 0;
     background-color: #C5B4AA;  
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     align-items: center; 
   }
   .bio{
     width: 100%;
     padding: 5px;
+    display: contents;
+    position: relative;
+  }
+  .bio img{
+    position: relative;
+    left: 11%;
+    padding-top: 10px;
   }
 
   
