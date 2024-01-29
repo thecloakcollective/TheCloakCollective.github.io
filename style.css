@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: #C5B4AA;
-    font-family: Poppins-Poppins;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
 
 }
@@ -31,9 +31,10 @@
 }
 .bio p{
     font-size: max(1vw, 30px);
-    font-weight: 500;
-    font-family: sans-serif;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top:20px;
+    color:#15110E;
 }
 .bio img{
     max-width: 78%;
@@ -181,7 +182,7 @@
 .Wrapper-Port a{
     align-items: center;
     text-align: center;
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 32px;
     font-weight: 400;
     color:#15110E;
@@ -422,14 +423,14 @@
 .testimonial-name {
   margin-top: 0;
   margin-bottom: 5px;
-  font-size: 1.5vw;
+  font-size: max(1.5vw, 25px);
   font-weight: bold;
   background-color: #F2A477;
 }
 
 .testimonial-designation {
   margin: 0;
-  font-size: 1.2vw;
+  font-size: max(1.2vw, 20px);
   background-color: #F2A477;
 }
 
@@ -465,7 +466,7 @@ li::marker {
 }
 .contact-container-sub ul li a{
   color: #000000;
-  font-family:  'niagara-solid';
+  font-family: niagara-solid;
   font-size: 2em;
 }
 .contact-container-sub ul li a:hover{
@@ -507,7 +508,7 @@ li::marker {
     
   }
   .contact-container-sub img{
-    width: 200%;
+    width: max(34vw, 250px);
   }
     .contact-container-sub ul{
     display: flex;
@@ -517,6 +518,7 @@ li::marker {
   }
   .contact-container-sub ul li a{
     font-size: 1em;
+    font-weight: 500;
   }
 }
 /***** End Contact *****/
