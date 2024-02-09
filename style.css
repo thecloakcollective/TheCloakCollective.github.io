@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #C5B4AA;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
 
@@ -15,7 +14,7 @@
     padding-left: 3vw;
     padding-right: 3vw;
     padding-bottom: 10px;
-    background-color: #C5B4AA;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +46,7 @@
     width: 100%;
     height: fit-content;
     padding-top: 0;
-    background-color: #C5B4AA;  
+    background-color: #ffffff;  
     display: inline-block;
     align-items: center; 
   }
@@ -269,7 +268,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #C5B4AA;
+  background-color: #ffffff;
 }
 
 .nav-container .hamburger-lines .line {
@@ -297,7 +296,7 @@
 
 .navbar .menu-items {
   padding-top: 120px;
-  background-color: #D6C9C2;
+  background-color: #ffffff;
   opacity: 90%;
   height: 100vh;
   width: 20%;
@@ -314,25 +313,26 @@
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
-  background-color: #D6C9C2;
+  background-color: #ffffff;
   
 }
 .logo{
   position: absolute;
   width: 90px;
   right: 15px;
+  top: -1px;
 }
 .logo img{
   position: absolute;
   right: 15px;
-  max-width: 70px;
+  max-width: 170px;
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
 }
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines {
-  background-color: #D6C9C2;
+  background-color: #ffffff;
 }
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
   transform: rotate(45deg);
@@ -350,21 +350,30 @@
   display: none;
 }
 .navbar .menu-items li a{
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 400;
   color:#15110E;
-  background-color: #D6C9C2;
+  background-color: #ffffff;
 }
 @media screen and (max-width: 800px) {
   .navbar .menu-items{
     z-index: 200;
     width: 30%;
   }
+  .logo{
+    padding: 10px;
+  }
+  .logo img{
+    max-width: 130px;
+  }
 }
 @media screen and (max-width: 600px) {
   .navbar .menu-items{
     width: 40%;
     z-index: 200;
+  }
+  .logo img{
+    max-width: 110px;
   }
 
 }
