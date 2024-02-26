@@ -363,6 +363,7 @@
   .navbar .menu-items{
     z-index: 200;
     width: 30%;
+    font-size: 1.1rem;
   }
   .logo{
     padding: 10px;
