@@ -329,7 +329,7 @@
 .logo img{
   position: absolute;
   right: 15px;
-  max-width: 170px;
+  max-width: 125px;
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
