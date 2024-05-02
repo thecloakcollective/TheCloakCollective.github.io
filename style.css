@@ -212,7 +212,7 @@
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 1%;
+
   background-color: #efb89a;
 }
 
@@ -322,14 +322,13 @@
 }
 .logo{
   position: absolute;
-  width: 140px;
   right: 15px;
-  top: -25px;
+  padding-top: 5px;
 }
 .logo img{
   position: absolute;
   right: 15px;
-  max-width: 125px;
+  max-width: 90px;
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
@@ -360,11 +359,9 @@
   background-color: #ffffff;
 }
 @media screen and (max-width: 1500px) {
-  .logo{
-    padding-top: 10px;
-  }
+
   .logo img{
-    max-width: 110px;
+    max-width: 90px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -373,11 +370,9 @@
     width: 30%;
     font-size: 1.1rem;
   }
-  .logo{
-    padding-top: 15px;
-  }
+
   .logo img{
-    max-width: 110px;
+    max-width: 90px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -386,7 +381,7 @@
     z-index: 200;
   }
   .logo img{
-    max-width: 110px;
+    max-width: 80px;
   }
 
 }
