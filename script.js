@@ -9,3 +9,4 @@ splashScreen.addEventListener('click',()=>{
     container.classList.remove('hidden');
   },610)
 })
+
