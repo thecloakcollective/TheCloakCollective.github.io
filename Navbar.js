@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
           <div class="menu-items">
             <li><a href="/">Home</a></li>
-            <li><a href="/bio/">About</a></li>
+            <li><a href="/Bio/">About</a></li>
             <li><a href="/Portfolio/">Portfolio</a></li>
             <li><a href="/Contact/">Contact</a></li>
           </div>
