@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="/index.html"><img src="/images/Logo.PNG" alt="Logo"></a>
           </div>
           <div class="menu-items">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/bio/Index.html">About</a></li>
-            <li><a href="/Portfolio/Index.html">Portfolio</a></li>
-            <li><a href="/Contact/Index.html">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/bio">About</a></li>
+            <li><a href="/Portfolio">Portfolio</a></li>
+            <li><a href="/Contact">Contact</a></li>
           </div>
         </div>
       </div>
