@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <span class="line line3"></span>
             </div>  
           <div class="logo">
-            <a href="/index.html"><img src="/images/Logo.PNG" alt="Logo"></a>
+            <a href="/"><img src="/images/Logo.PNG" alt="Logo"></a>
           </div>
           <div class="menu-items">
             <li><a href="/">Home</a></li>
