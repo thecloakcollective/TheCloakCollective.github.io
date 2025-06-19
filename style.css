@@ -132,7 +132,16 @@
   vertical-align: middle;
   width: 100%;
 }
-
+.column-2 h2{
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 0.5vh;
+}
+.column-3 h2{
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 0.5vh;
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -531,8 +540,8 @@ figure:hover+span {
 	transition: .3s ease-in-out;
 }
 .hover01 figure:hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 /***** TC Line Specific Costumes *****/ 
 .TC-Wrapper{
