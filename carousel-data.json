@@ -1,4 +1,11 @@
 [
+  {
+    "title": "Frequencies Of The Next Life",
+    "location": "Toronto, Canada",
+    "image": "images/W_Crop/Frequencies.WEBP",
+    "link": "Frequencies-Of-The-Next-Life/",
+    "alt": "Frequencies Of The Next Life costume"
+  },
     {
     "title": "XENA: The Warrior Princess ",
     "location": "Toronto, Canada",
@@ -96,13 +103,6 @@
     "image": "images/W_Crop/LostSmile.WEBP",
     "link": "The-Girl-with-the-Lost-Smile/",
     "alt": "The Girl with the Lost Smile costume"
-  },
-  {
-    "title": "Surrender",
-    "location": "Vicenza, Italy.",
-    "image": "images/W_Crop/Surrender35.WEBP",
-    "link": "Surrender/",
-    "alt": "Surrender costume"
   },
   {
     "title": "Space Cadet",
